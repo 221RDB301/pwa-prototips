@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWA Piezīmju Lietotne</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo" class="logo">
+    <h1>Piezīmju lietotne <span>(Offline-ready)</span></h1>
+  </header>
+
+  <div id="status-bar" class="status-bar online">Savienots ar internetu</div>
+  <div id="action-status" class="action-status"></div>
+
+  <main>
+    <form id="note-form">
+      <textarea id="note-input" placeholder="✍️ Ievadi jaunu piezīmi..." required></textarea>
+      <button type="submit">💾 Saglabāt</button>
+    </form>
+
+    <section class="notes">
+      <h2>📝 Saglabātās piezīmes</h2>
+      <ul id="note-list" class="note-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kristers Jānītis | RTU</p>
+  </footer>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
