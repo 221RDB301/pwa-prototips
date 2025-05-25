@@ -1,11 +1,12 @@
 const CACHE_NAME = 'pwa-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js',
-  '/db.js',
-  '/manifest.json'
+  '/pwa-prototips/',
+  '/pwa-prototips/index.html',
+  '/pwa-prototips/style.css',
+  '/pwa-prototips/app.js',
+  '/pwa-prototips/db.js',
+  '/pwa-prototips/manifest.json',
+  '/pwa-prototips/icon-192.png'
 ];
 
 // Instalēšana
