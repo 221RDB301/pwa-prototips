@@ -5,8 +5,7 @@ const urlsToCache = [
   '/pwa-prototips/style.css',
   '/pwa-prototips/app.js',
   '/pwa-prototips/db.js',
-  '/pwa-prototips/manifest.json',
-  '/pwa-prototips/icon-192.png'
+  '/pwa-prototips/manifest.json'
 ];
 
 // Instalēšanas notikums
